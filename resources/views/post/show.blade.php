@@ -16,7 +16,7 @@
                 #{{$tag->title}}
             @endforeach
         </span>
-        
+        {{'End of all'}}
     </div>
     <a href="{{route('posts.edit', $post)}}">Edit post</a>
 @endsection
